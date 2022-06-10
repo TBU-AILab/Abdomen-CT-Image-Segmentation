@@ -1,10 +1,21 @@
 # Introduction 
 
 This framework designed for medical image segmentation. It uses the ushaped deep CNN architecture (VNet or UNet) extended by attention gates. For more information about the method, please read the following paper:
+```
+@ARTICLE{frontiers,
+AUTHOR={Turečková, Alžběta and Tureček, Tomáš and Komínková Oplatková, Zuzana and Rodríguez-Sánchez, Antonio},   
+TITLE={Improving CT Image Tumor Segmentation Through Deep Supervision and Attentional Gates},      
+JOURNAL={Frontiers in Robotics and AI},      
+VOLUME={7},      
+YEAR={2020},      
+URL={https://www.frontiersin.org/article/10.3389/frobt.2020.00106},       
+DOI={10.3389/frobt.2020.00106},      
+ISSN={2296-9144}}
+```
 
-`The paper describing the method is still under the review.`
+Online version of the paper is available [here](https://www.frontiersin.org/articles/10.3389/frobt.2020.00106/full).
 
-Please also cite this paper if you are using this code for your research!
+Please cite this paper if you are using this code for your research!
 
 The attention mechanism helps the network to focus on the desired area of CT abdomen scan and therefore improves the accuracy. The attention maps from two network levels (image resolutions) for three different abdomen CT images datasets are in Fig 1 below.
 
